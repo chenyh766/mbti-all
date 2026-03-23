@@ -43,7 +43,7 @@ app.post('/api/ai-analysis', async (req, res) => {
     const { mbti, catBreed } = req.body;
     
     // 👇 第1处修改：把单引号里的内容，换成你刚刚复制的 sk- 开头的 DeepSeek API Key
-    const API_KEY = 'sk-944f0c6aa6db4116bfff253490361d57'; 
+    const API_KEY = 'sk-xxxxxx57'; 
     // 👇 第2处修改：换成 DeepSeek 的官方接口地址
     const API_URL = 'https://api.deepseek.com/chat/completions';
 
